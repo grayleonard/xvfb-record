@@ -1,7 +1,7 @@
 Xvfb Headless Desktop Recording
 ===
 
-This program uses Xvfb, a headless Xserver (X virtual framebuffer), to launch GUI programs. Using ffmpeg and x11grab, xvfb-record streams the framebuffer to an RTMP endpoint (currently tested with [twitch.tv](twitch.tv). To test, I have automated streaming netflix and hulu videos using the browser testing software [selenium](http://www.seleniumhq.org/).
+This program uses Xvfb, a headless Xserver (X virtual framebuffer), to launch GUI programs. Using ffmpeg and x11grab, xvfb-record streams the framebuffer to an RTMP endpoint (tested with [twitch.tv](twitch.tv)). As an example, I have automated streaming netflix and hulu videos using the browser testing software [selenium](http://www.seleniumhq.org/).
 
 Requirements
 ===
